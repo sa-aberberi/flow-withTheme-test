@@ -1,11 +1,11 @@
 // @flow
 
-import React, { Component } from 'react';
+import * as React from 'react';
 import { withTheme } from 'styled-components';
 
-class Example extends Component<{}> {
-  static defaultProps = {};
+type Props = {};
 
+class Example extends React.Component<Props> {
   render() {
     return <div />;
   }
